@@ -253,21 +253,36 @@ Slika v stolpcu
 \end{columns}
 \end{frame}
 % -------------------------------------------------------------------
+\begin{frame}
+\frametitle{Odkrivanje tabele po vrsticah}
+\begin{table}
+\begin{tabular}{c| c c c c}
 
-   Odkrivanje tabele po vrsticah
-      Oznaka A B C D
-      X 1 2 3 4
-      Y 3 4 5 6
-      Z 5 6 7 8
+\onslide<1->
 
+      Oznaka& A& B& C& D \onslide<2->  \\  \hline
+
+      X& 1& 2& 3& 4\onslide<3->  \\
+      Y& 3& 4& 5& 6 \onslide<4-> \\
+      Z& 5& 6& 7& 8 
+
+\end{tabular}
+\end{table}
+\end{frame}
 % -------------------------------------------------------------------
+\begin{frame}
+\frametitle{Odkrivanje tabele po stolpcih}   
+\begin{table}
+\begin{tabular}{c |!{\onslide<2->} c!{\onslide<3->} c!{ \onslide<4->}c!{\onslide<5->} c!{\onslide}}
 
-   Odkrivanje tabele po stolpcih
-      Oznaka A B C D
-      X 1 2 3 4
-      Y 3 4 5 6
-      Z 5 6 7 8
+      Oznaka& A& B& C& D \\ \hline
+      X& 1& 2& 3& 4 \\
+      Y& 3& 4& 5& 6 \\
+      Z& 5& 6& 7& 8 \\
 
+\end{tabular}
+\end{table}
+\end{frame}
 % ===================================================================
 
 Razno

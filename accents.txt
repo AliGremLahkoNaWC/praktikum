@@ -1,0 +1,54 @@
+﻿Text mode
+Plain TeX makes it possible to typeset the most commonly used accents:
+
+\` (grave accent): à
+
+\' (acute accent): á
+
+\^ (circumflex or “hat”): â
+
+\" (umlaut or dieresis): ä
+
+\~ (tilde or “squiggle”): ã
+
+\= (macron or “bar”): ā
+
+\. (dot accent): ȧ
+
+\u (breve accent): ă
+
+\v (háček or “check”): ǎ
+
+\H (long Hungarian umlaut): ő
+
+\t (tie-after accent): a͡
+
+\c (cedilla): ş
+
+\d (dot-under accent): ạ
+
+\b (bar-under accent): ο̩
+
+\k (ogonek): ą
+
+The Unicode character encoding UTF8 includes several special characters and characters with accents. The following code specifies that the encoding of the LaTeX document source file is UTF8. As font encoding is specified T1, because it supports the encoding of extended character sets in fonts:
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+Of course, the encoding in the text editor needs to be set to utf8, as well.
+
+Math mode
+The following commands may be used only in math mode to produce accents;
+
+\hat{o} (circumflex): enter image description here
+\widehat{oo} (wide version of \hat over several letters): enter image description here
+\check{o} (vee or check): enter image description here
+\tilde{o} (tilde) enter image description here
+\widetilde{oo} (wide tilde) enter image description here
+\acute{o} (acute accent): enter image description here
+\grave{o} (grave accent): enter image description here
+\dot{o} (dot over the letter): enter image description here
+\ddot{o} (two dots over the letter): enter image description here
+\breve{o} (breve): enter image description here
+\bar{o} (macron): enter image description here
+\vec{o} (vector (arrow) over the letter): enter image description here
